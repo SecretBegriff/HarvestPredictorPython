@@ -1,0 +1,22 @@
+# --- SEGURIDAD (¡Lo más importante!) ---
+.env
+src/config.py
+# Esto evita que subas tus claves de API y contraseñas de MySQL.
+# Nunca subas un archivo .env a GitHub.
+
+# --- Basura de Python ---
+__pycache__/
+*.pyc
+# Son archivos temporales que Python crea para ir más rápido.
+# No sirven en otra computadora.
+
+# --- Entorno Virtual ---
+venv/
+env/
+# No subas las librerías. Para eso está el requirements.txt.
+# Render instalará las librerías limpias usando ese archivo.
+
+# --- Archivos del Sistema Operativo / IDE ---
+.DS_Store
+.vscode/
+.idea/
